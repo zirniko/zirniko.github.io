@@ -166,7 +166,7 @@ border-radius: 120px;
 
 .contact-icon{ /*aquiiiiii para*/
     top : 500px;
-    z-index: 30;/*aquiiiiii era 10 ultimo cambioooo*/
+    z-index: 20;/*aquiiiiii era 10 ultimo cambioooo*/
     text-decoration: none;/*prueba para borrar los puntos de medio que se ven*/
     
 }
