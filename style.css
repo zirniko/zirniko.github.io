@@ -312,7 +312,7 @@ padding-bottom: 60px;
 
 /*abaut*/
 .about{
-    background-color: var(--dark2);
+    background-color: #663d24 /* <---color cafe            original=var(--dark2)*/;
 }
 .about-flex{
     display: flex;
