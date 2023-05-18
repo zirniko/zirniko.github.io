@@ -4,7 +4,7 @@
     margin: 0;
 }
 :root {
-    --primary:#f07000;/*naranja*/
+    --primary:#1b3039;/*naranja*/
     --secondary: #fc00e3;/*color roza*/
     --secondary-light:rgb(173,173,173);
     --dark1:#1b3039;/*MISMO COLOR DE LA BARRA DONDE APARECE INICIO Y TODO*/
