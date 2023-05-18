@@ -316,7 +316,7 @@ padding-bottom: 60px;
 
 /*abaut*/
 .about{
-    background-color: #663d24 /* <---color cafe =sesccion sobre mi , es el olor de fondo original=var(--dark2)*/;
+    background-color: #1b3039 /* <---color de fondo en = sesccion sobre mi , es el olor de fondo original=var(--dark2)*/;
 }
 .about-flex{
     display: flex;
