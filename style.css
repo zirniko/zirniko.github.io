@@ -71,7 +71,7 @@
 }
 
 .hero{
-    background-color: var(--dark2);/*dark2*/
+    background-color: var(--dark2);/*amarilo*/
     /* original position: fixed; */
     position: relative;
 }
@@ -291,7 +291,7 @@ padding-bottom: 60px;
     
 }
 .mi-parrafo {
-    color: #6DE09D;
+    color: #35004a; /*morado oscuro apagado*/
     font-size: 20px;
     font-weight: normal;
 }
