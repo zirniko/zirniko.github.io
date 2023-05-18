@@ -142,13 +142,13 @@ border-radius: 120px;
     top: 405px;
     z-index: 11;
 }
-.square-text-2{
+.square-text2{
     font-size: 1rem;
     color: var(--op1);
     top:450px;/*original 428*/
     z-index: 11;
 }
-.square-text-3{
+.square-text3{
     font-size: 1.3rem;
     color: var(--tre);
     top:500px;
