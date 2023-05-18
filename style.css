@@ -12,6 +12,7 @@
     --dark2:#0f6b36;/*verdoso color de fondoo entero*/
     --dark3:#18359e;/*Azul normal*/
     --op1:#379960;/*verde claro*/
+    --op2:#226e42;/*verde sin brillo*/
 }
 .navbar{
     display: flex;
@@ -196,7 +197,7 @@ span {
     transform: scale(1.2);
 }
 .briefcase{
-background-color: var(--dark2);/*<----- color de fondo seccion mi portafolio*/
+background-color: var(--op2);/*<----- color de fondo seccion mi portafolio*/
 }
 .briefcase-section h2{
     padding: 40px;
