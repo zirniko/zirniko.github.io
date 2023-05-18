@@ -196,7 +196,7 @@ span {
     transform: scale(1.2);
 }
 .briefcase{
-background-color: var(--op1);/*<------------------- color de fondoooo??? especificar*/
+background-color: var(--tre);/*<------------------- color de fondoooo??? especificar*/
 }
 .briefcase-section h2{
     padding: 40px;
