@@ -193,7 +193,7 @@ span {
     transform: scale(1.2);
 }
 .briefcase{
-background-color: var(--dark1);
+background-color: var(--dark3);/*<------------------- color*/
 }
 .briefcase-section h2{
     padding: 40px;
