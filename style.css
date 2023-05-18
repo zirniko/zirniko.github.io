@@ -150,16 +150,18 @@ border-radius: 120px;
 }
 .square-text-3{
     font-size: 1.3rem;
-    color: var(--secondary);
+    color: var(--tre);
     top:500px;
     z-index: 11;
     text-decoration: none;
 }
+/*
 .square-text-3{
     color: var(--secondary);
     text-decoration: none;
     
 }
+*/
 .square-text-3:hover{
     border-bottom: var(--primary)solid;
     text-decoration: none;
