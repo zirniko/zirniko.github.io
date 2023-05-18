@@ -329,7 +329,7 @@ padding-bottom: 60px;
 
 }
 .social {
-    border-left: var(--secondary)5px solid;
+    border-left:  #756efa;/*aqui aplique un morado cremoso        var(--secondary)5px solid */
     padding-left: 50px;/*original= 50px*/
 }
 
