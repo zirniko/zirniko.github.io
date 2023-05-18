@@ -162,7 +162,7 @@ border-radius: 120px;
     
 }
 */
-.square-text-3:hover{
+.square-text3:hover{
     border-bottom: var(--primary)solid;
     text-decoration: none;
 }
