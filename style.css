@@ -144,7 +144,7 @@ border-radius: 120px;
 }
 .square-text-2{
     font-size: 1rem;
-    color: var(--secondary);
+    color: var(--op1);
     top:450px;/*original 428*/
     z-index: 11;
 }
