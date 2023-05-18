@@ -196,7 +196,7 @@ span {
     transform: scale(1.2);
 }
 .briefcase{
-background-color: var(--tre);/*<------------------- color de fondoooo??? especificar*/
+background-color: var(--dark2);/*<----- color de fondo seccion mi portafolio*/
 }
 .briefcase-section h2{
     padding: 40px;
