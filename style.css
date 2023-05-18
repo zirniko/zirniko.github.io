@@ -5,7 +5,7 @@
 }
 :root {
     --primary:#f07000;/*naranja*/
-    --secondary: white;
+    --secondary: #fc00e3;/*color roza*/
     --secondary-light:rgb(173,173,173);
     --dark1:#1b3039;/*MISMO COLOR DE LA BARRA DONDE APARECE INICIO Y TODO*/
     --dark2:#e9ed0c;/*amarillo color de fondoo entero*/
