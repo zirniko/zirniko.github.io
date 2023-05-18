@@ -27,7 +27,7 @@
 /*nueba barra version 2*/
 
 .header{
-    background-color: #1b3039;
+    background-color: #1b3039;/*color de barra donde aperece inicio - portafolio etc*/
     display: flex;
     justify-content: space-between;
     align-items: center;
