@@ -295,8 +295,8 @@ padding-bottom: 60px;
     font-size: 20px;
     font-weight: normal;
 }
-.mi-titulo {
-    color: #f705d3;
+.mi-titulo {/*color donde esta mi nombre*/
+    color: #f705d3;/*rozado*/
     font-size: 32px;
     font-weight: bold;
     text-align: center;
