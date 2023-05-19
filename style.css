@@ -253,7 +253,7 @@ section.perlas {
 padding-bottom: 60px;
 }
 .skill h3{
-    background-color:#FF4500 ;/*var(--dark2)*     <---- proginal lo puse rojo ahora :#FF4500*/
+    background-color:var(--op1);/*var(--dark2)*<---- color de fondo iconos mis conociminentos herramientas:#FF4500*/
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
