@@ -242,9 +242,10 @@ section img:hover{
 }
 -----------------------------------------------------------------
 
-original  INICIO
+*/
+/*original  INICIO*/
 .briefcase{
-background-color: var(--op2);/*<----- color de fondo seccion mi portafolio
+background-color: var(--op2);/*<----- color de fondo seccion mi portafolio*/
 }
 .briefcase-section h2{
     padding: 40px;
@@ -268,10 +269,7 @@ transition: transform 0.2s ease;
 
 }
 
-origin fin 
 
-
-*/
 
 /*INICIO DE EDICION */
 
