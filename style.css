@@ -196,6 +196,9 @@ span {
 .contact-icon img:hover {
     transform: scale(1.2);
 }
+
+
+
 .briefcase{
 background-color: var(--op2);/*<----- color de fondo seccion mi portafolio*/
 }
@@ -220,6 +223,7 @@ transition: transform 0.2s ease;
     transform: scale(1.1);
 
 }
+
 
 /*skill*/
 section.skills {
