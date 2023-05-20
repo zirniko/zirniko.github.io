@@ -29,7 +29,7 @@
 /*nueba barra version 2*/
 
 .header{
-    background-color: #1b3039;/*color de barra donde aperece inicio - portafolio etc*/
+    background-color: #1b3039;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -73,7 +73,7 @@
 }
 
 .hero{
-    background-color: var(--dark2);/*amarilo*/
+    background-color: var(--dark2);/*dark2*/
     /* original position: fixed; */
     position: relative;
 }
@@ -143,13 +143,13 @@ border-radius: 120px;
     top: 405px;
     z-index: 11;
 }
-.square-text2{
+.square-text-2{/*original */
     font-size: 1rem;
     color: var(--op1);
     top:450px;/*original 428*/
     z-index: 11;
 }
-.square-text3{
+.square-text-3{
     font-size: 1.3rem;
     color: var(--tre);
     top:500px;
@@ -161,23 +161,22 @@ border-radius: 120px;
     color: var(--secondary);
     text-decoration: none;
     
-}
-*/
-.square-text3:hover{
+}*/
+.square-text-3:hover{
     border-bottom: var(--primary)solid;
     text-decoration: none;
 }
 
 .contact-icon{ /*aquiiiiii para*/
     top : 500px;
-    z-index: 20;/*aquiiiiii era 10 ultimo cambioooo*/
-    text-decoration: none;/*prueba para borrar los puntos de medio que se ven*/
+    z-index: 20;
+    text-decoration: none;
     
 }
 .contact-icon img{
-    width: 50px;/*aquiiiiiiiiiii era 40    ULTIMO CAMBIO*/
+    width: 50px;
     margin: 0 10px;
-    text-decoration: none;/*prueba para borrar los puntos de medio que se ven*/
+    text-decoration: none;
 }
 body{
     font-size: 18px;
@@ -196,56 +195,8 @@ span {
 .contact-icon img:hover {
     transform: scale(1.2);
 }
-section{
-    display: flex;
-    width: 600px;
-    height: 430;
-}
-
-
-section img {
-    width: 0;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
-}
-
-section img:hover{
-    cursor: crosshair;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
-}
-
-/*  -------------------------------------------------------
-section{
-    display: flex;
-    width: 600px;
-    height: 430;
-}
-
-
-section img {
-    width: 0;
-    flex-grow: 1;
-    object-fit: cover;
-    opacity: .8;
-    transition: .5s ease;
-}
-
-section img:hover{
-    cursor: crosshair;
-    width: 300px;
-    opacity: 1;
-    filter: contrast(120%);
-}
------------------------------------------------------------------
-
-*/
-/*original  INICIO*/
 .briefcase{
-background-color: var(--op2);/*<----- color de fondo seccion mi portafolio*/
+background-color: var(--op2);/*color de fondo Portafolio*/
 }
 .briefcase-section h2{
     padding: 40px;
@@ -269,18 +220,6 @@ transition: transform 0.2s ease;
 
 }
 
-
-
-/*INICIO DE EDICION */
-
-
-
-
-
-
-
-/*FIN DE EDICION */
-
 /*skill*/
 section.skills {
     background-color: var(--dark1);
@@ -294,6 +233,8 @@ section.skills {
     width: 90%;
     margin: 0;
     padding-bottom: 110px;
+    
+    text-align: center;/*AÑADIDO PARA CENTRARRRRR*/
 }
 
 section.perlas {
@@ -313,7 +254,11 @@ section.perlas {
 padding-bottom: 60px;
 }
 .skill h3{
-    background-color:var(--op1);/*var(--dark2)*<---- color de fondo iconos mis conociminentos herramientas:#FF4500*/
+    background-color: var(--op1);
+    
+    justify-content: center;
+
+    
     text-align: center;
     border-radius: 5px;
     padding: 5px 0;
@@ -323,6 +268,9 @@ padding-bottom: 60px;
     opacity: 0;
     transform: translate(0px,-100px);
     transition: transform 0.4s ease, opacity 0.4s ease;
+
+    
+    
 }
 .knowledge>div:hover h3
 {
@@ -351,16 +299,17 @@ padding-bottom: 60px;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(70px,auto));
     justify-content: center;
+    
     gap:50px;
     
 }
 .mi-parrafo {
-    color: #35004a; /*morado oscuro apagado*/
+    color: #35004a;
     font-size: 20px;
     font-weight: normal;
 }
-.mi-titulo {/*color donde esta mi nombre*/
-    color: #f705d3;/*rozado*/
+.mi-titulo {
+    color: #f705d3;
     font-size: 32px;
     font-weight: bold;
     text-align: center;
@@ -376,7 +325,7 @@ padding-bottom: 60px;
 
 /*abaut*/
 .about{
-    background-color: #1b3039 /* <---color de fondo en = sesccion sobre mi , es el olor de fondo original=var(--dark2)*/;
+    background-color: #1b3039;
 }
 .about-flex{
     display: flex;
@@ -393,7 +342,7 @@ padding-bottom: 60px;
 
 }
 .social {
-    border-left:  #756efa;/*aqui aplique un morado cremoso        var(--secondary)5px solid */
+    border-left: #756efa;
     padding-left: 50px;/*original= 50px*/
 }
 
@@ -405,7 +354,7 @@ margin: 10px;/*original 10px*/
 .social img:hover{
     transform:scale(1.2);/*original = 1.2*/
 }
-/*footer     creoo que es el fondo color negro del final donde esta el sobre mi y el icono de watsapp*/
+/*footer*/
 footer{
     background-color: var(--dark2);
     text-align: center;
@@ -435,7 +384,7 @@ gap: 15px;
     width: 70px;
 }
 .icon-elements span:hover{
-    color:var(--op1);/*secondary*/
+    color:var(--op1);
 }
 /*añadido*/
 .mi-boton {
