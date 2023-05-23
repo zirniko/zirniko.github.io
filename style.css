@@ -273,6 +273,8 @@ padding-bottom: 60px;
     
     
 }
+
+/*
 .tool-name {
   background-color: var(--op1);
   justify-content: center;
@@ -291,7 +293,7 @@ padding-bottom: 60px;
     opacity: 1;
     transform: translate(0px,-150px);
 }
-/*nueva version tool*/
+nueva version tool
 .tools-horizontal {
   display: flex;
   flex-direction: row;
@@ -304,7 +306,7 @@ padding-bottom: 60px;
   flex: 1;
   margin: 0 10px;
 }
-/*añadidoooooo*/
+/*añadidoooooo
 .image-text {
   position: absolute;
   bottom: 0;
@@ -324,7 +326,7 @@ padding-bottom: 60px;
 }
 /*fin nueva version*/
 
-
+/*
 .tools>div:hover h3
  {
     opacity: 1;
@@ -351,6 +353,36 @@ padding-bottom: 60px;
     gap:50px;
     
 }
+*/
+/*AÑADIDOOOOOOOOOOOOOOOOOO   IMAGEN  Y HERRAMIENTA*/
+.tools-horizontal {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tool {
+    text-align: center;
+    margin-right: 20px;
+    position: relative;
+}
+
+.image-text {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.tool:hover .image-text,
+.tool:focus .image-text {
+    opacity: 1;
+}
+/*FINN        IMAGEN Y HERRAMIENTA*/
+
+
+
 .mi-parrafo {
     color: #35004a;
     font-size: 20px;
