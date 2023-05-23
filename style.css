@@ -33,10 +33,6 @@
   text-align: center;
 }
 
-#loader-text {
-  font-size: 1.5 rem;
-  margin-top: 100px;
-}
 
 @keyframes spin {
   0% {
@@ -46,6 +42,25 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#loader-text {
+  font-size: 42px;
+  margin-top: 16px;
+  animation: fade 2s infinite;
+}
+
 
 
 /*fin preloader*/
