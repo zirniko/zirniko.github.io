@@ -29,8 +29,8 @@
   position: absolute;
   left: 50%;
   top: 50%;
-  border: 16px solid #f3f3f3; /* color del borde del spinner */
-  border-top: 16px solid #3498db; /* color de la parte superior del spinner */
+  border: 16px solid #53a840; /* color verdoso claro del borde del spinner */
+  border-top: 16px solid #32f007; /* color verde fosforesente fuerte de la parte superior del spinner */
   border-radius: 50%;
   width: 120px;
   height: 120px;
