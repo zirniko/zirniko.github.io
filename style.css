@@ -377,5 +377,32 @@ footer{
 }
 /*Nueba barra*/
 
+/*opcin 2 prueba diseño imagenens */
+.contenedor-hijo {
+    position: relative;
+    width: 100%; /* Puedes ajustar el ancho según tus necesidades */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Opcional para centrado vertical */
+  }
+.slider {
+    aspect-ratio: 10 / 16;
+    width: 300px;/*300*/
+    position: relative;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x  mandatory;
+}
+.slider img{
+    width: 100%;
+    left: 0;
+    position: sticky;/*efecto*/
+    object-fit: cover;
+    border-radius: 5px;
+    scroll-snap-align: center;
+}
+/*fin opcion 2*/
+
+
 
 
