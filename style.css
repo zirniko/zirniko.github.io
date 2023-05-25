@@ -190,7 +190,7 @@ body{
     margin: 0 auto;
 }
 span {
-    color: var(--primary);
+    color: var(--secondary);/*--primary  secondary es blanco*/
 }
 .contact-icon img:hover {
     transform: scale(1.2);
