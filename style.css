@@ -287,12 +287,12 @@ section.perlas {
     gap:50px;
 }
 .mi-parrafo {
-    color: #35004a;
+    color: var(--secondary);
     font-size: 20px;
     font-weight: normal;
 }
 .mi-titulo {
-    color: #f705d3;
+    color: var(--op1);
     font-size: 32px;
     font-weight: bold;
     text-align: center;
