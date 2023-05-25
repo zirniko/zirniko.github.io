@@ -243,8 +243,11 @@ section.perlas {
     margin: 0;
     padding-bottom: 110px;
 }
-.skill h2{
+.skill h2{   
     padding-bottom: 60px;
+    /*editadoooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+    background-color: var(--op1);
+    color:var(--primary);
 }
 .skill h3{
     background-color: var(--op1);
