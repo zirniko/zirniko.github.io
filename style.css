@@ -180,29 +180,11 @@ border-radius: 120px;
     margin: 0 10px;
     text-decoration: none;
 }
-/* original 
 body{
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--primary); 
 }
-*/
-
-/*inicio degradado*/
-body {
-  /* Establece el tamaño de la página para que el fondo ocupe todo el espacio disponible */
-  height: 100vh;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: linear-gradient(to right, #ff0000, #0000ff);
-}
-body {
-  background-image: linear-gradient(to right, #ff0000 25%, #0000ff 75%);
-}
-/*fin degradado*/
-
 .container{
     max-width: 1200px;
     margin: 0 auto;
