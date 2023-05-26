@@ -43,11 +43,11 @@
   100% { transform: rotate(360deg); } /* Rotación completa */
 }
 /*fin preloader*/
-/*INICIO degradado*/
+/*INICIO degradado
 .selector {
   background-image: linear-gradient(to right, #ff0000, #0000ff);
 }
-/*fin degradado*/
+fin degradado*/
 .navbar{
     display: flex;
     justify-content: center;
