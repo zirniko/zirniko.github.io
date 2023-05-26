@@ -45,7 +45,7 @@
 /*fin preloader*/
 /*INICIO degradado*/
 .selector {
-  background-image: linear-gradient(to right, color1, color2, color3);
+  background-image: linear-gradient(to right, #ff0000, #0000ff);
 }
 /*fin degradado*/
 .navbar{
