@@ -42,8 +42,12 @@
   0% { transform: rotate(0deg); } /* Rotación inicial */
   100% { transform: rotate(360deg); } /* Rotación completa */
 }
-
 /*fin preloader*/
+/*INICIO degradado*/
+.selector {
+  background-image: linear-gradient(to right, color1, color2, color3);
+}
+/*fin degradado*/
 .navbar{
     display: flex;
     justify-content: center;
