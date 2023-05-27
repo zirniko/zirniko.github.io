@@ -65,6 +65,13 @@ fin degradado*/
 .skillss{
     padding: 1em 0;
 }
+.skillss__header{
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+    margin-left:auto;
+}
+
 .skillss__item{
     display :flex;
     aling-items:center;
