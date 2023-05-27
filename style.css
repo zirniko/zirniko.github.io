@@ -53,9 +53,15 @@
 fin degradado*/
 /*inicio barra conocimientos*/
 .column{
+    /* original 
     display:grid;
     gap: 0.5em;
-    justify-content: center;/*añadido para centrar todo fond end y su contenido*/
+    justify-content: center;/*añadido para centrar todo fond end y su contenido
+    fin original */
+    
+    display: flex;
+  justify-content: center;
+  align-items: center;
  }
 @media screen and (min-width: 720px){
     .column--right{
