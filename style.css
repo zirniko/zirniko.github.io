@@ -80,7 +80,7 @@ fin degradado*/
 }
 /*relleno de barra*/
 .skillss__bar::after{
-    content: '';
+    content: "";
     position: absolute;
     left: -175px;
     background-color: var(--op1);
