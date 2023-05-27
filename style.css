@@ -86,7 +86,7 @@ fin degradado*/
     transition: var(--transition);/*este creo que no lo tengo xd*/
 }
 .skillss__bar--70::after{
-    transform:translateX(70%);
+    transform:translateX(20%);
 }
 
 
