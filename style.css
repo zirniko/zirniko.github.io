@@ -15,10 +15,8 @@
     --op2:#1B42A1;/*azul sin brillo*/
     --transition: color 0.1s, background-color 0.2s ease-in-out;
     --skillss-bar-length:0%;
-    
 }
 /*inicio preloader*/
-
 .preloader {
   position: fixed;
   top: 0;
@@ -31,7 +29,6 @@
   justify-content: center;
   z-index: 9999;
 }
-
 .preloader:before {
   content: "";
   border: 16px solid #3498db; /* Color del borde superior */
@@ -40,29 +37,16 @@
   height: 120px; /* Tamaño del preloader */
   animation: spin 2s linear infinite; /* Animación de giro */
 }
-
 @keyframes spin {
   0% { transform: rotate(0deg); } /* Rotación inicial */
   100% { transform: rotate(360deg); } /* Rotación completa */
 }
-/*fin preloader*/
-/*INICIO degradado
-.selector {
-  background-image: linear-gradient(to right, #ff0000, #0000ff);
-}
-fin degradado*/
 /*inicio barra conocimientos*/
 .column{
-    /* original 
     display:grid;
     gap: 0.5em;
-    justify-content: center;/*añadido para centrar todo fond end y su contenido
-    fin original */
-    
-    display: flex;
-  justify-content: center;
-  align-items: center;
- }
+    justify-content: center;
+    }
 @media screen and (min-width: 720px){
     .column--right{
         grid-template-columns: repeat(3, 1fr);
@@ -133,15 +117,11 @@ fin degradado*/
 .skillss__bar--90::after {
     --skillss-bar-length:90%;
 }
-
 @keyframes skillss-bar-fill {
     to {
         transform : translateX(var(--skillss-bar-length));/*  <--------ojooo*/
        }
-}
-
-
-/*fin barra conocimientos*/
+}/*fin barra conocimientos*/
 .navbar{
     display: flex;
     justify-content: center;
@@ -469,14 +449,12 @@ footer{
     color:  #050505;
     box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.5);
     transform: translateY(-2px);
-}
-/*fin añadido*/
+}/*fin añadido*/
 .mi-boton2{
     border:none;
     text-decoration: none;
 }
 /*Nueba barra*/
-
 /*opcin 2 prueba diseño imagenens */
 .contenedor-hijo {
     position: relative;
@@ -500,9 +478,4 @@ footer{
     object-fit: cover;
     border-radius: 5px;
     scroll-snap-align: center;
-}
-/*fin opcion 2*/
-
-
-
-
+}/*fin opcion 2*/
