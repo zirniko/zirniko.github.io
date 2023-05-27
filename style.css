@@ -121,7 +121,15 @@
     to {
         transform : translateX(var(--skillss-bar-length));/*  <--------ojooo*/
        }
-}/*fin barra conocimientos*/
+}
+/*contenendor para centrar*/
+.container-fornend {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+}
+/*fin barra conocimientos*/
 .navbar{
     display: flex;
     justify-content: center;
