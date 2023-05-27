@@ -13,6 +13,8 @@
     --dark3:#18359e;/*Azul normal*/
     --op1:#379960;/*verde claro*/
     --op2:#1B42A1;/*azul sin brillo*/
+    --skillss-bar-lenght:0%;
+    
 }
 /*inicio preloader*/
 
@@ -67,13 +69,28 @@ fin degradado*/
     aling-items:center;
     justify-content: space-between;
 }
-.skillss__bar{
+.skillss__bar,
+.skillss__bar::after {
+    position:relative;
     width:175px;
     height:8px;
     background-color: #888;
     border-radius: var(--op1);
-    
 }
+/*relleno de barra*/
+.skillss__bar::after{
+    content: '';
+    position: absolute;
+    left: -175px;
+    background-color: var(--op1);
+    transition: var(--transition);/*este creo que no lo tengo xd*/
+}
+.skillss__bar--70::after{
+    transform:translateX(70%);
+}
+
+
+
 /*fin barra conocimientos*/
 .navbar{
     display: flex;
