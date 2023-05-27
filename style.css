@@ -122,7 +122,7 @@ fin degradado*/
 
 @keyframes skillss-bar-fill {
     to {
-        transform : traslateX(var(--skillss-bar-length));
+        transform : translateX(var(--skillss-bar-length));/*  <--------ojooo*/
        }
 }
 
