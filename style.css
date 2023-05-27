@@ -13,7 +13,7 @@
     --dark3:#18359e;/*Azul normal*/
     --op1:#379960;/*verde claro*/
     --op2:#1B42A1;/*azul sin brillo*/
-    --transition: #f20f0f/*color 0.1s, background-color 0.2s ease-in-out;*/
+    --transition: color 0.1s, background-color 0.2s ease-in-out;
     --skillss-bar-length:0%;
     
 }
