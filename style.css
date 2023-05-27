@@ -55,6 +55,7 @@ fin degradado*/
 .column{
     display:grid;
     gap: 0.5em;
+    justify-content: center;/*añadido para centrar todo fond end y su contenido*/
  }
 @media screen and (min-width: 720px){
     .column--right{
