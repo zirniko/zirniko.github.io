@@ -86,10 +86,44 @@ fin degradado*/
     background-color: var(--op1);
     transition: var(--transition);/*este creo que no lo tengo xd*/
 }
+.skillss__bar--10::after{
+    --skillss-bar-length:10%;
+}
+.skillss__bar--20::after{
+    --skillss-bar-length:20%;
+}
+.skillss__bar--30::after{
+    --skillss-bar-length:30%;
+}
+.skillss__bar--40::after{
+    --skillss-bar-length:40%;
+}
+.skillss__bar--50::after{
+    --skillss-bar-length:50%;
+}
+.skillss__bar--60::after{
+    --skillss-bar-length:60%;
+}
 .skillss__bar--70::after{
-    transform: translateX(var(--skillss-bar-length));
+    --skillss-bar-length:70%;
+}
+.skillss__bar--80::after{
+    --skillss-bar-length:80%;
+}
+.skillss__bar--90::after{
+    --skillss-bar-length:90%;
+}
+.skillss__bar--100::after{
+    --skillss-bar-length:100%;
 }
 
+
+
+@keyframes skills-bar-fill{
+    to{
+        transform : traslateX(var(--skillss-bar-length));
+       }
+}
 
 
 /*fin barra conocimientos*/
