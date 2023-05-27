@@ -48,6 +48,18 @@
   background-image: linear-gradient(to right, #ff0000, #0000ff);
 }
 fin degradado*/
+/*inicio barra conocimientos*/
+.column{
+    display:grid;
+    gap: 0.5em;
+ }
+@media screen and (min-width: 720px){
+    .column--right{
+        grid-templace-columns: repeat(3, 1fr);
+    }
+}
+
+/*fin barra conocimientos*/
 .navbar{
     display: flex;
     justify-content: center;
