@@ -120,8 +120,8 @@ fin degradado*/
 
 
 
-@keyframes skills-bar-fill{
-    to{
+@keyframes skillss-bar-fill {
+    to {
         transform : traslateX(var(--skillss-bar-length));
        }
 }
