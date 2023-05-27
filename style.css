@@ -489,3 +489,12 @@ footer{
     border-radius: 5px;
     scroll-snap-align: center;
 }/*fin opcion 2*/
+.cont-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eaeaea; /* Color de fondo deseado */
+}
+
+
