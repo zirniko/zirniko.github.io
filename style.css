@@ -71,11 +71,15 @@ fin degradado*/
     width: 175px;
     margin-left:auto;
 }
-
+.skillss__tech{
+    margin: 0;
+    font-size: 1rem;
+}
 .skillss__item{
     display :flex;
     aling-items:center;
     justify-content: space-between;
+    margin-bottom: 0.5em;
 }
 .skillss__bar,
 .skillss__bar::after {
