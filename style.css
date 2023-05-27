@@ -65,7 +65,7 @@ fin degradado*/
 .skillss{
     padding: 1em 0;
 }
-.skillss__header{
+.skills__header{/*una s creo tenia 2 skillss__header*/
     display: flex;
     justify-content: space-between;
     width: 175px;
