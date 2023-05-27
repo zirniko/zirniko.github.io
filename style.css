@@ -84,7 +84,7 @@ fin degradado*/
     position: absolute;
     left: -175px;
     background-color: var(--op1);
-    transition: var(--transition);/*este creo que no lo tengo xd*/
+    transition: var(--transition);
     animation: skillss-bar-fill 2s ease-in-out;/*le agrege 2 ss*/
 }
 .skillss__bar--10::after {
