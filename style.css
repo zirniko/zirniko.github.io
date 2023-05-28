@@ -424,7 +424,7 @@ footer{
 .contenedor{
     width: 100%;
     padding:30px 30px 50px;
-    background:linear-gradiemt(450deg,darkblue,black);
+    background:linear-gradiemt(450deg,#008000,#008B8B);/*verde claro y celeste*/
 }
 
 
