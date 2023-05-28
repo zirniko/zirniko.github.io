@@ -42,97 +42,6 @@
   0% { transform: rotate(0deg); } /* Rotación inicial */
   100% { transform: rotate(360deg); } /* Rotación completa */
 }
-/*inicio barra conocimientos*/
-.column{
-    display:grid;
-    gap: 0.5em;
-    /*justify-content: center;*/
-    }
-@media screen and (min-width: 720px){
-    .column--right{
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat (3,min-content);
-    }
-}
-.skillss {
-    padding: 1em 0;
-}
-.skillss__header{
-    display: flex;
-    justify-content: space-between;
-    width: 175px;
-    margin-left:auto;
-}
-.skillss__tech{
-    margin: 0;
-    font-size: 1rem;
-}
-.skillss__item{
-    display :flex;
-    align-items:center;
-    justify-content: space-between;
-    margin-bottom: 0.5em;
-}
-.skillss__bar,
-.skillss__bar::after {
-    position:relative;
-    width:175px;
-    height:8px;
-    background-color: #888;
-    border-radius: var(--op1);
-    overflow: hidden;
-}
-/*relleno de barra*/
-.skillss__bar::after{
-    content: "";
-    position: absolute;
-    left: -175px;
-    background-color: var(--primary);/*--op1*/
-    transition: var(--transition);
-    animation: skillss-bar-fill 2s ease-in-out forwards;/*le agrege 2 ss*/
-}
-.skillss__bar--10::after {
-    --skillss-bar-length:10%;
-}
-.skillss__bar--20::after {
-    --skillss-bar-length:20%;
-}
-.skillss__bar--30::after {
-    --skillss-bar-length:30%;
-}
-.skillss__bar--40::after {
-    --skillss-bar-length:40%;
-}
-.skillss__bar--50::after {
-    --skillss-bar-length:50%;
-}
-.skillss__bar--60::after {
-    --skillss-bar-length:60%;
-}
-.skillss__bar--70::after {
-    --skillss-bar-length:70%;
-}
-.skillss__bar--80::after {
-    --skillss-bar-length:80%;
-}
-.skillss__bar--90::after {
-    --skillss-bar-length:90%;
-}
-@keyframes skillss-bar-fill {
-    to {
-        transform : translateX(var(--skillss-bar-length));/*  <--------ojooo*/
-       }
-}
-/*contenendor para centrar*/
-.container-fornend {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Ajusta la altura según tus necesidades */
-    background-color: #f20f0f;
-}
-/*fini centrar*/
-/*fin barra conocimientos*/
 .navbar{
     display: flex;
     justify-content: center;
@@ -142,8 +51,7 @@
     list-style: none;
     text-decoration: none;
 }
-/*nueba barra version 2*/
-.header{
+.header{/*nueba barra version 2*/
     background-color: #1b3039;
     display: flex;
     justify-content: space-between;
