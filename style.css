@@ -413,3 +413,23 @@ footer{
 }
 
 
+.caja-padre{
+    width: 40%;
+    min-width: 590px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left:50%;
+    top:50%;
+}
+.contenedor{
+    width: 100%;
+    padding:30px 30px 50px;
+    background:linear-gradiemt(450deg,darkblue,black);
+}
+
+
+
+
+
+
+
