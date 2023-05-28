@@ -87,7 +87,7 @@
     content: "";
     position: absolute;
     left: -175px;
-    background-color: var(--op1);
+    background-color: var(--primary);/*--op1*/
     transition: var(--transition);
     animation: skillss-bar-fill 2s ease-in-out forwards;/*le agrege 2 ss*/
 }
