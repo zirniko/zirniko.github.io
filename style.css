@@ -497,5 +497,11 @@ footer{
   height: 100vh;
   background-color: var(--op3); /* Color de fondo celeste claro */
 }
+/*añadido para centrar el card*/
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 
