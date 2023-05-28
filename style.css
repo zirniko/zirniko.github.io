@@ -15,7 +15,7 @@
     --op2:#1B42A1;/*azul sin brillo*/
     --op3:#00BFFF;/*azul claro*/
     --transition: color 0.1s, background-color 0.2s ease-in-out;
-    --skillss-bar-length:0%;
+    --skillss-bar-length: 0%;
 }
 /*inicio preloader*/
 .preloader {
@@ -46,18 +46,18 @@
 .column{
     display:grid;
     gap: 0.5em;
-    justify-content: center;
+    /*justify-content: center;*/
     }
 @media screen and (min-width: 720px){
     .column--right{
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat (3, min-content);
+        grid-template-rows: repeat (3,min-content);
     }
 }
-.skillss{
+.skillss {
     padding: 1em 0;
 }
-.skills__header{/*una s creo tenia 2 skillss__header*/
+.skillss__header{
     display: flex;
     justify-content: space-between;
     width: 175px;
@@ -69,7 +69,7 @@
 }
 .skillss__item{
     display :flex;
-    aling-items:center;
+    align-items:center;
     justify-content: space-between;
     margin-bottom: 0.5em;
 }
@@ -80,7 +80,7 @@
     height:8px;
     background-color: #888;
     border-radius: var(--op1);
-    overflow: hidden;/*ultimo añaddido hidden*/
+    overflow: hidden;
 }
 /*relleno de barra*/
 .skillss__bar::after{
