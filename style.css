@@ -424,7 +424,8 @@ footer{
 .contenedor{
     width: 100%;
     padding:30px 30px 50px;
-    background:linear-gradiemt(450deg,#008000,#008B8B);/*verde claro y celeste*/
+    background:linear-gradient(450deg,#008000,#008B8B);/*verde claro y celeste*/
+    border: 2px solid rgba(0, 0, 0, 0.6);
 }
 
 
