@@ -117,7 +117,7 @@
     width: 290px;
     height: 290px;
     border-radius: 50%;
-    border: solid 30px var (--primary);
+    border: solid 30px var(--primary);
     opacity: .2;
     z-index: 19;
     top:90px;
@@ -242,7 +242,7 @@ section.perlas {
 }
 .skill h2{   
     padding-bottom: 60px;
-    /*editadoooooooooooooooooooooooooooooooooooooooooooooooooooooooo*/
+    /*editado*/
     color: #FFFFFF;/*blanco*/
 }
 .skill h3{
@@ -464,17 +464,14 @@ h2{
     background-color:cyan;
 }
 /*animacion*/
-
 #html-menu{
     animation: html-barra 2s forwards;
 }
-
 @keyframes html-barra{
     100%{
         width:90%;/*aqui apliacmos cuanto quiro que se llene la barra*/
     }
 }
-
 #css-menu{
     animation: css-barra 2s forwards;
 }
