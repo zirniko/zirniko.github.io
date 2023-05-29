@@ -441,7 +441,7 @@ h2{
     font-size:34px;
     font-weight:bold;
 }
-.ski.not(:last-child){
+.ski:not(:last-child){
     margin-bottom: 30px;
 }
 .detalles{
