@@ -455,7 +455,7 @@ h2{
     border:1px solid cyan;
     border-radius: 20px;
 }
-.menu dic{
+.menu div{
     position:relative;
     width: 0;
     height:8px;
