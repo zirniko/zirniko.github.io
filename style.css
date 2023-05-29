@@ -447,7 +447,7 @@ h2{
 .detalles{
     width:100%;
     display: flex;
-    fustify-content: space-between;
+    justify-content: space-between;
     margin-bottom:10px;
 }
 .menu{
