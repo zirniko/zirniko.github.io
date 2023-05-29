@@ -411,8 +411,6 @@ footer{
   justify-content: center;
   align-items: center;
 }
-
-
 .caja-padre{
     width: 40%;
     min-width: 590px;
@@ -425,8 +423,8 @@ footer{
     width: 100%;
     padding:30px 30px 50px;
     background:linear-gradient(450deg,#008000,#008B8B);/*verde claro y celeste*/
-    border: 2px solid rgba(0, 0, 0, 0.6);
-    border-radius:10px;
+    border: 2px solid rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
 }
@@ -434,11 +432,14 @@ footer{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana,sans-serif;
     color:white;
     font-weight: 500;
-    
 }
 h2{
     margin-bottom: 50px;
     letter-spacing: 2px;
+    /*AÑADIDO*/
+    text-align:center;
+    font-size:34px;
+    font-weight:bold;
 }
 .ski.not(:last-child){
     margin-bottom: 30px;
