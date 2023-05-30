@@ -469,7 +469,7 @@ h2{
 }
 @keyframes html-barra{
     100%{
-        width:90%;/*aqui apliacmos cuanto quiro que se llene la barra*/
+        width:80%;/*aqui apliacmos cuanto quiro que se llene la barra*/
     }
 }
 #css-menu{
