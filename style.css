@@ -503,7 +503,7 @@ h2{
 .my-button2 {
       border: 2px solid #333;
     border-radius: 10px;/*4 original*/
-      background-color: #F8F8FF;/*blanco*/
+      background-color: #379960;/*verde claro*/
       color: #0000FF;/*azul*/
       padding: 10px 20px;
       font-size: 16px;
@@ -512,8 +512,8 @@ h2{
     }
 
     .my-button2:hover {
-      background-color: #00FF00;/*verde claro*/
-      color: #48D1CC;/*celeste*/
+      background-color: #00FF7F;/*verde claro*/
+      color: #FFFFFF;/*blanco*/
     }
 
 
