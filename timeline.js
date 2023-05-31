@@ -1,10 +1,6 @@
 // Array
 const frameworks = [
-    {
-        name:"2019 - 2022", 
-        description:" Técnico programacion y analisis de sistemas . Instituto profeccional AIEP"
-    },
-    {
+    {    
         name:"2017-2019", 
         description:" Técnico administracion de empresas mención recursos humanos . Complejo educacional la frontera "
     },
@@ -15,6 +11,11 @@ const frameworks = [
     {
         name:"2018-2019", 
         description:"Pasantia profesional Jhonson Ltda."
+        
+    },
+    {
+        name:"2019 - 2022", 
+        description:" Técnico programacion y analisis de sistemas . Instituto profeccional AIEP"
     },
     {
         name:"?????", 
