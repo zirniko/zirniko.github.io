@@ -122,11 +122,11 @@
     z-index: 19;
     top:110px;/*original es de 90px quedo perfenctoo*/
 }
-.circle{
+.circle{/*circulo color mas fuerte*/
     width: 270px;
     height: 270px;
     border-radius: 50%;
-    border: solid 15px var(--primary);
+    border: solid 15px var(--op1);
     z-index: 230;
     top: 120px;
 }
