@@ -120,7 +120,7 @@
     border: solid 30px var(--primary);
     opacity: .2;
     z-index: 19;
-    top:110px;/*original es de 90px*/
+    top:110px;/*original es de 90px quedo perfenctoo*/
 }
 .circle{
     width: 270px;
@@ -131,7 +131,7 @@
     top: 120px;
 }
 .profile-img{
-    top: 136px;/*aqui muevo la imgen de mi perfil hacia abiajo o arriba*/
+    top: 138px;/*EDITADO IMAGEN POICION original 136  aqui muevo la imgen de mi perfil hacia abiajo o arriba*/
     z-index: 30;
 }
 .profile-img img{
