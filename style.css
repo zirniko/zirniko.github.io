@@ -120,7 +120,7 @@
     border: solid 30px var(--primary);
     opacity: .2;
     z-index: 19;
-    top:100px;/*original es de 90px*/
+    top:110px;/*original es de 90px*/
 }
 .circle{
     width: 270px;
