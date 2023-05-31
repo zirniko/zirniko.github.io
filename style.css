@@ -14,6 +14,7 @@
     --op1:#379960;/*verde claro*/
     --op2:#1B42A1;/*azul sin brillo*/
     --op3:#00BFFF;/*azul claro*/
+    --op4:#00FF00;
     --transition: color 0.1s, background-color 0.2s ease-in-out;
     --skillss-bar-length: 0%;
 }
@@ -117,7 +118,7 @@
     width: 290px;
     height: 290px;
     border-radius: 50%;
-    border: solid 30px var(--primary);
+    border: solid 30px var(--op4);
     opacity: .2;
     z-index: 19;
     top:110px;/*original es de 90px quedo perfenctoo*/
