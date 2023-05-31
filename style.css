@@ -131,7 +131,7 @@
     top: 120px;
 }
 .profile-img{
-    top: 138px;/*EDITADO IMAGEN POICION original 136  aqui muevo la imgen de mi perfil hacia abiajo o arriba*/
+    top: 134px;/*EDITADO IMAGEN POICION original 136  aqui muevo la imgen de mi perfil hacia abiajo o arriba - SUBE + BAJA*/
     z-index: 30;
 }
 .profile-img img{
