@@ -113,14 +113,14 @@
     top: 110px;
     border-radius: 10px;
 }
-.circle-trans{
+.circle-trans{/*circulo transparente del perfil*/
     width: 290px;
     height: 290px;
     border-radius: 50%;
     border: solid 30px var(--primary);
     opacity: .2;
     z-index: 19;
-    top:90px;
+    top:100px;/*original es de 90px*/
 }
 .circle{
     width: 270px;
