@@ -214,8 +214,7 @@ span {
 .briefcase-grid img:hover{
     transform: scale(1.1);
 }
-/*skill*/
-section.skills {
+section.skills {/*skill*/
     background-color: var(--dark1);
 }
 .skill{
@@ -242,8 +241,7 @@ section.perlas {
 }
 .skill h2{   
     padding-bottom: 60px;
-    /*editado*/
-    color: #FFFFFF;/*blanco*/
+    color: #FFFFFF;/*blanco*//*editado*/
 }
 .skill h3{
     background-color: var(--op1);
@@ -258,13 +256,11 @@ section.perlas {
     transform: translate(0px,-100px);
     transition: transform 0.4s ease, opacity 0.4s ease;
 }
-.knowledge>div:hover h3
-{
+.knowledge>div:hover h3{
     opacity: 1;
     transform: translate(0px,-150px);
 }
-.tools>div:hover h3
- {
+.tools>div:hover h3{
     opacity: 1;
     transform: translate(0px,-150px);
 }
@@ -348,8 +344,7 @@ footer{
 .icon-elements span:hover{
     color:var(--op1);
 }
-/*añadido*/
-.mi-boton {
+.mi-boton {/*añadido*/
     border: none;
     background-color: var(--op1);
     color: #FFFFFF;
@@ -373,14 +368,13 @@ footer{
     border:none;
     text-decoration: none;
 }
-/*Nueba barra*/
-/*opcin 2 prueba diseño imagenens */
+/*Nueba barra*//*opcin 2 prueba diseño imagenens */
 .contenedor-hijo {
     position: relative;
-    width: 100%; /* Puedes ajustar el ancho según tus necesidades */
+    width: 100%;/*Puedes ajustar el ancho según tus necesidades */
     display: flex;
     justify-content: center;
-    align-items: center; /* Opcional para centrado vertical */
+    align-items: center;/*Opcional para centrado vertical*/
   }
 .slider {
     aspect-ratio: 10 / 16;
@@ -496,38 +490,19 @@ h2{
         width:30%;/*aqui apliacmos cuanto quiro que se llene la barra*/
     }
 }
-
-
-
-/*aaaaaaaaaaaaaa*/
 .my-button2 {
-      border: 2px solid #333;
+    border: 2px solid #333;
     border-radius: 10px;/*4 original*/
-      background-color: #379960;/*verde claro*/
-      color: #FFFFFF;/*blanco*/
-      padding: 10px 20px;
-      font-size: 16px;
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-    /*agregado para centrar*/
-  display: block;
-  margin: 0 auto;
-
-
-    }
-
+    background-color: #379960;/*verde claro*/
+    color: #FFFFFF;/*blanco*/
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;/*agregado para centrar*/
+    margin: 0 auto;/*agregado para centrar*/
+}
     .my-button2:hover {
       background-color: #00FF7F;/*verde claro*/
       color: #FFFFFF;/*blanco*/
-    }
-
-
-
-
-
-
-
-
-
-
-
+}
