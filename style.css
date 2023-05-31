@@ -131,7 +131,7 @@
     top: 120px;
 }
 .profile-img{
-    top: 206px;/*original : 136px */
+    top: 136px;/*aqui muevo la imgen de mi perfil hacia abiajo o arriba*/
     z-index: 30;
 }
 .profile-img img{
