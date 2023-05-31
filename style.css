@@ -131,7 +131,7 @@
     top: 120px;
 }
 .profile-img{
-    top: 136px;
+    top: 206px;/*original : 136px */
     z-index: 30;
 }
 .profile-img img{
