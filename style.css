@@ -411,6 +411,7 @@ footer{
     min-width: 590px;
     position: absolute;
     background:#008000;/*añadi  solo este backgraund  para ver si el fondo cambia*/
+    border-radius: 10px;/*APLICADO PARA BORDEARRRRRRRRRR , AVER SI FUNCIONA EN MIS HABILIDADES*/
     transform: translate(-50%,-50%);
     left:50%;
     top:50%;
@@ -420,7 +421,7 @@ footer{
     padding:30px 30px 50px;
     background:linear-gradient(450deg,#008000,#008B8B);/*verde claro y celeste*/
     border: 2px solid rgba(0, 0, 0, 0.06);
-    border-radius: 10px;/*  SI LO APLIQE AHORA  aplico border al skill pero se ve feo en mi pagina*/
+    border-radius: 10px;/*  SI LO APLIQE AHORA  EL border al skill pero se VEIA feo en mi pagina PERO PRUEVO*/
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(10px);
 }
