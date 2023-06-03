@@ -25,12 +25,12 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+/* body de prueba , ya tengo uno listo
 body {
   font-family: "Michroma", sans-serif;
   height: 100vh;
 }
-
+*/
 .container2 {
   background-color: black;
   color: #fff;
@@ -95,7 +95,7 @@ body {
 
 
 
-/*inicio preloader*/
+/*inicio preloader
 .preloader {
   position: fixed;
   top: 0;
@@ -110,16 +110,18 @@ body {
 }
 .preloader:before {
   content: "";
-  border: 16px solid #3498db; /* Color del borde superior */
-  border-radius: 50%; /* Forma circular */
-  width: 120px; /* Tamaño del preloader */
-  height: 120px; /* Tamaño del preloader */
-  animation: spin 2s linear infinite; /* Animación de giro */
+  border: 16px solid #3498db; /* Color del borde superior 
+  border-radius: 50%; /* Forma circular 
+  width: 120px; /* Tamaño del preloader 
+  height: 120px; /* Tamaño del preloader 
+  animation: spin 2s linear infinite; /* Animación de giro 
 }
 @keyframes spin {
-  0% { transform: rotate(0deg); } /* Rotación inicial */
-  100% { transform: rotate(360deg); } /* Rotación completa */
+  0% { transform: rotate(0deg); } /* Rotación inicial 
+  100% { transform: rotate(360deg); } /* Rotación completa 
 }
+*/
+
 .navbar{
     display: flex;
     justify-content: center;
