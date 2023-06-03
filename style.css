@@ -25,12 +25,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-/* body de prueba , ya tengo uno listo
-body {
-  font-family: "Michroma", sans-serif;
-  height: 100vh;
-}
-*/
 .container2 {
   background-color: black;
   color: #fff;
@@ -262,6 +256,12 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--primary); 
 }
+/*inicio body proloader*/
+body {
+  font-family: "Michroma", sans-serif;
+  height: 100vh;
+}
+/*fin body proloader*/
 .container{
     max-width: 1200px;
     margin: 0 auto;
