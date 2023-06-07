@@ -26,6 +26,7 @@ body {
     --primary:#1b3039;/*color azul oscuro letras de mi nombre y circulo perfil*/
     --secondary: #ffffff;/*blanco*/
     --tre:#f20f0f;/*rojo*/
+    --four:linear-gradient(to bottom, #d42424, #2441d4) ;
     --secondary-light:rgb(173,173,173);
     --dark1:#1b3039;/*MISMO COLOR DE LA BARRA DONDE APARECE INICIO Y TODO*/
     --dark2:#2574DB ;/*celeste claro color de fondoo entero--------------------*/
@@ -206,7 +207,7 @@ body {
 body{
     font-size: 18px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color:linear-gradient(to bottom, #d42424, #2441d4) ; /*var(--primary)          este acanbo de cambiar*/
+    color: var(--primary); /*         este acanbo de cambiar*/
      height: 100vh;/*añadido loader*/
 }
 
@@ -229,7 +230,7 @@ span {
     transform: scale(1.2);
 }
 .briefcase{
-    background-color: var(--op2);/*color de fondo Portafolio*/
+    background-color: var(--four);/*color de fondo Portafolio         CAMBIADOOOOOOOOOOOOOOOOOOOO*/
 }
 .briefcase-section h2{
     padding: 40px;
