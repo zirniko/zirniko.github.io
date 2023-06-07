@@ -191,11 +191,13 @@ body{
     color: var(--primary); 
      height: 100vh;/*añadido loader*/
 }
-#my-body{/*body degradadooo  en el index2*/
-  background: linear-gradient(to bottom, #59f060, #59b6f0);/*verdoso y ceeste*/
-  background-size: cover;
+
+#my-body {
+  background: linear-gradient(to bottom,#59f060, #59b6f0);/*verdoso y ceeste*/
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
 
 }
 .container{
