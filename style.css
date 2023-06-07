@@ -192,7 +192,7 @@ body{
      height: 100vh;/*añadido loader*/
 }
 #my-body{/*body degradadooo  en el index2*/
-  background: linear-gradient(to bottom, #ffffff, #e6e6e6);
+  background: linear-gradient(to bottom, #59f060, #59b6f0);/*verdoso y ceeste*/
 }
 .container{
     max-width: 1200px;
