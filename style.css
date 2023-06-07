@@ -38,11 +38,23 @@
     font-size: 48px;
   }
   
-  .logo {
-    font-size: 96px;
-    margin-bottom: 10px;
+ .logo {
+  font-size: 96px;
+  margin-bottom: 10px;
+  animation: draw 2s linear forwards; /* Agrega la animación "draw" */
+  overflow: hidden;
+  width: 0;
+}
+
+@keyframes draw {
+  0% {
+    width: 0;
   }
-  
+  100% {
+    width: 100%;
+  }
+}
+
   .name {
     font-size: 24px;
   }
