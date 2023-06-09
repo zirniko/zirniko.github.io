@@ -85,6 +85,21 @@ fin loader*/
   transition: opacity 0.5s ease-in-out;
 }
 
+.loader {
+  text-align: center;
+  color: #fff;
+  font-size: 48px;
+}
+
+.logo {
+  font-size: 96px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-size: 24px;
+}
+
 .preloader-hidden {
   opacity: 0;
   pointer-events: none;
