@@ -37,6 +37,7 @@ body {
     --op4:#00FF00;
     --transition: color 0.1s, background-color 0.2s ease-in-out;
     --skillss-bar-length: 0%;
+    --fondo-rgb: 128, 0, 128;
 }
 /*inicio laoder*/
 #preloader {
@@ -228,7 +229,7 @@ span {
     transform: scale(1.2);
 }
 .briefcase{
-    background-color: rgb(128, 0, 128);/*color de fondo Portafolio original= var(--dark3)        CAMBIADOOOOOOOOOOOOOOOOOOOO*/
+    background-color:rgb(var(--fondo-rgb);/*color de fondo Portafolio original= var(--dark3)        CAMBIADOOOOOOOOOOOOOOOOOOOO*/
     /*rgb(var(--fondo-rgb)     o si no probaresta*/
 }
 .briefcase-section h2{
