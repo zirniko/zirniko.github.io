@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Michroma&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@100&@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@100&@700&display=swap");
 
 *{
     box-sizing: border-box;
@@ -636,6 +636,9 @@ h2{
     100% { transform: translateY(500px); opacity: 0;}    
 }
 /*fin timeline*/
+
+
+/*-----------boton 4----------*/
 
 
 /*-----------boton 4----------*/
