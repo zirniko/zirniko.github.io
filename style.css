@@ -640,6 +640,15 @@ h2{
 
 
 /*-----------boton 3----------*/
+.btn{
+    position: relative;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 10px;
+    text-indent: 10px;
+    z-index: 2;
+}
 /*-----------boton 3----------*/
 
 .btn-3{
