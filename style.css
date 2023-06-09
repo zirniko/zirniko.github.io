@@ -637,7 +637,52 @@ h2{
 }
 /*fin timeline*/
 
+/*BOTOM 2*/
+/*-----------boton 2----------*/
 
+.btn-2{
+    border: 3px solid;
+}
+
+.btn-2:hover{
+    background-color: #001a2b;
+    box-shadow: 0 0 20px var(--color);
+    border-color: var(--color);
+}
+
+.btn-2 span:nth-child(n){
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border: 3px solid;
+    transition: all 0.6s ease;
+}
+
+.btn-2 span:nth-child(1){
+    right: 10%;
+    top: -10px;
+    background-color: #fff;
+}
+
+.btn-2 span:nth-child(2){
+    left: 10%;
+    bottom: -10px;
+}
+
+.btn-2:hover span:nth-child(1){
+    right: 80%;
+    transform: rotate(90deg);
+    color: var(--color);
+    background-color: var(--color);
+    
+}
+
+.btn-2:hover span:nth-child(2){
+    left: 80%;
+    transform: rotate(90deg);
+    color: var(--color);
+}
+/*FIN BOTOM 2*/
 
 /*-----------boton 3----------*/
 .btn{
