@@ -229,8 +229,7 @@ span {
     transform: scale(1.2);
 }
 .briefcase{
-    background-color:rgb(var(--fondo-rgb);/*color de fondo Portafolio original= var(--dark3)        CAMBIADOOOOOOOOOOOOOOOOOOOO*/
-    /*rgb(var(--fondo-rgb)     o si no probaresta*/
+    background-color:var(--dark3)   /*color fondo*/
 }
 .briefcase-section h2{
     padding: 40px;
