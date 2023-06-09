@@ -642,7 +642,15 @@ h2{
 
 
 /*-----------boton 4----------*/
-
+.btn{
+    position: relative;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 10px;
+    text-indent: 10px;
+    z-index: 2;
+}
 .btn-4::after{
     content: "";
     position: absolute;
