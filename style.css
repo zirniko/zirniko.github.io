@@ -40,6 +40,7 @@ body {
     --transition: color 0.1s, background-color 0.2s ease-in-out;
     --skillss-bar-length: 0%;
     --fondo-rgb: 128, 0, 128;
+    --color: #17a2ff;
 }
 /*inicio laoder*/
 #preloader {
