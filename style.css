@@ -650,6 +650,12 @@ h2{
     z-index: 2;
 }
 /*-----------boton 2----------*/
+.btn-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Resto de tus estilos */
+}
 
 .btn-2{
     border: 3px solid;
