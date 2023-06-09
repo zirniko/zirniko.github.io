@@ -228,7 +228,7 @@ span {
     transform: scale(1.2);
 }
 .briefcase{
-    background-color: var(--dark3);/*color de fondo Portafolio         CAMBIADOOOOOOOOOOOOOOOOOOOO*/
+    background-color: linear-gradient(to bottom,#59f060, #59b6f0);/*color de fondo Portafolio original= var(--dark3)        CAMBIADOOOOOOOOOOOOOOOOOOOO*/
 }
 .briefcase-section h2{
     padding: 40px;
