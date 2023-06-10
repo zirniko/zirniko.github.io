@@ -756,4 +756,39 @@ h2{
 }
 
 /*fin boton 3*/
+/*inicio imagenes gustos*/
+.position{
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.slider2 {
+    background-image: url(img/cine.jpg);
+    background-size: cover;
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    animation: animate 20s infinite;
 
+}
+
+@keyframes animate{
+    20%{
+        background-image: url(img/games.jpg);
+        background-size: cover;
+    }
+    40%{
+        background-image: url(img/cine.jpg);
+        background-size: cover;
+    }
+    60%{
+        background-image: url(img/games.jpg);
+        background-size: cover;
+    }
+    80%{
+        background-image: url(img/cine.jpg);
+        background-size: cover;
+    }
+}
+/*fin imagenes gustos*/
