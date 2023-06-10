@@ -17,7 +17,7 @@ body {
   padding: 0;
 }
 .custom-body {
-  background: linear-gradient(to right, #d42424, #2441d4);
+  background: linear-gradient(to right, #379960, #2441d4);
   background-attachment: fixed;
   background-size: cover;
 }
