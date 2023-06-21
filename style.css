@@ -1012,10 +1012,14 @@ h2{
 
   .image-container {
     position: relative;
+
+	  border-radius: 10px;
     width: 100px;
     margin: 10px;
   }
   .image-container img {
+
+	  border-radius: 10px;
     width: 100%;
     height: auto;
   }
