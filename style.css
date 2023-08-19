@@ -21,14 +21,23 @@ body {
 }
 /*añadido6fin*/
 :root {
-    --primary:#1b3039;/*color azul oscuro letras de mi nombre y circulo perfil*/
+    --primary:#cc0597;/*color azul oscuro letras de mi nombre y circulo perfil*/
     --secondary: #ffffff;/*blanco*/
     --tre:#f20f0f;/*rojo*/
     --four:linear-gradient(to bottom, #d42424, #2441d4) ;
     --secondary-light:rgb(173,173,173);
-    --dark1:#1b3039;/*MISMO COLOR DE LA BARRA DONDE APARECE INICIO Y TODO*/
-    --dark2:#2574DB ;/*celeste claro color de fondoo entero--------------------*/
-    --dark3:#18359e;/*Azul normal*/
+    --dark1:background: #4b6cb7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;/*MISMO COLOR DE LA BARRA DONDE APARECE INICIO Y TODO*/
+    --dark2:
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    --dark3:background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
     --op1:#379960;/*verde claro*/
     --op2:#1B42A1;/*azul sin brillo*/
     --op3:#00BFFF;/*azul claro*/
@@ -37,8 +46,6 @@ body {
     --skillss-bar-length: 0%;
     --fondo-rgb: 128, 0, 128;
     --color: #17a2ff;
-
-
     --white-text:#fff;
 	--background:#c8e8f1;
 	--black-text:rgb(68, 66, 66)	
@@ -64,7 +71,7 @@ body {
 .card {
 	background-color:var(--white-text);
 	border-radius: 1rem;
-	box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+	box-shadow: 0 1rem 1rem rgba(228, 9, 9, 0.2);
 	display: flex;	
 	margin: 1.5rem;
 	overflow: hidden;
@@ -184,7 +191,10 @@ body {
     text-decoration: none;
 }
 .header{/*nueba barra version 2*/
-    background-color: #1b3039;
+    background: #16222A;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -277,13 +287,13 @@ body {
 }
 .square-text{
     font-size: 1.9rem;
-    color: var(--secondary);
+    color:#050505;
     top: 405px;
     z-index: 11;
 }
 .square-text-2{
     font-size: 1rem;
-    color: var(--op1);
+    color:white;
     top:450px;
     z-index: 11;
 }
@@ -397,7 +407,7 @@ section.perlas {
     gap:50px;
 }
 .mi-parrafo {
-    color: var(--secondary);
+    color:#f20f0f;
     font-size: 20px;
     font-weight: normal;
 }
@@ -408,7 +418,10 @@ section.perlas {
     text-align: center;
   }
 .about{
-    background-color: #1b3039;
+    background: #4b6cb7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #182848, #4b6cb7);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #182848, #4b6cb7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .about-flex{
     display: flex;
@@ -421,7 +434,7 @@ section.perlas {
     width: 90%;
     margin: 0 auto;
     line-height: 2.5 rem;
-    color: var(--secondary-light);
+    color:white;
 }
 .social {
     border-left: #756efa;
@@ -896,7 +909,9 @@ h2{
     flex-direction: column;
     margin-right: 20px;
     padding: 20px;
-    background-color: #05a6d7;
+    background: #373B44;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #4286f4, #373B44);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 20px;
     text-align: center; /* Centrar el contenido horizontalmente */
     align-items: center; /* Centrar el contenido verticalmente */
@@ -923,7 +938,7 @@ h2{
   }
   .timeline::-webkit-scrollbar-thumb {
     /*background-color: #24b902;*/
-    background: linear-gradient(to right, #024316, #04e234);
+    background: linear-gradient(to right, #09a001, #04e234);
     border-radius: 5px;
   }
   /* Firefox */
