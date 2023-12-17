@@ -169,6 +169,10 @@ body {
   justify-content: center;
   align-items: center;
 }
+#page-container {
+  display: none;
+}
+
 .loader {
   text-align: center;
   color: #fff;
@@ -1080,4 +1084,10 @@ background: linear-gradient(to top, #4286f4, #373B44); /* W3C, IE 10+/ Edge, Fir
     font-size: 18px;
     font-weight: bold;
   }
+
+
+
+
+
+
   
